@@ -108,8 +108,8 @@ ul {
   opacity: 0.75;
 }
 
-.pigTile h3 {
-  color: #FBB;
+.pigTile {
+  color: rgb(129, 33, 129);
 }
 
 .minPigTile {
@@ -149,4 +149,32 @@ ul {
   to {
     transform: rotate(360deg);
   }
+}
+
+.piggycons{
+  height: 100px;
+  width: 100px;
+}
+.list-group-flush{
+  display: none;
+}
+.showCard{
+  display: block;
+}
+.ui.column.grid>[class*="four wide"].column, .ui.grid>.column.row>[class*="four wide"].column, .ui.grid>.row>[class*="four wide"].column, .ui.grid>[class*="four wide"].column {
+  height: fit-content;
+  width: 25%!important;
+}
+
+.filter{
+  margin-right: 15px;
+  display:inline-flex;
+  cursor:pointer;
+}
+.pig-form{
+  border: solid, red, 5px;
+}
+
+div.ui.grid.container.moveDown{
+  margin-top: 1rem;
 }
